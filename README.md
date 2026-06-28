@@ -10,13 +10,13 @@ git clone https://github.com/YuYoshida7211/java-basic.git
 
 ```
 // dockerビルド
-docker-compose build
+docker compose build
 
 // dockerをバックグラウンドで起動
-docker-compose up -d
+docker compose up -d
 
 // dockerコンテナに入る
-docker-compose exec java bash
+docker compose exec java bash
 
 ```
 
